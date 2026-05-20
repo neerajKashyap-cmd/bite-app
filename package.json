@@ -1,0 +1,13 @@
+{
+  "name": "bite-calorie-tracker",
+  "version": "1.0.0",
+  "description": "Bite - Smart Calorie & Nutrition Tracker",
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm start\"",
+    "start": "cd server && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
