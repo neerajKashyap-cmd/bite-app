@@ -1,0 +1,8 @@
+node_modules/
+.env
+server/data/meals.json
+build/
+.DS_Store
+*.log
+.cache/
+coverage/
