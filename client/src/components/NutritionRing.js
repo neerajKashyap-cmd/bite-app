@@ -9,7 +9,7 @@ const NutritionRing = ({ value, goal, label, color, unit = 'g' }) => {
 
   return (
     <div className="nutrition-ring">
-      <svg width="80" height="80" viewBox="0 0 80 80">
+      <svg width="80" height="90" viewBox="0 0 80 80">
         <circle cx="40" cy="40" r={radius} fill="none" stroke="#f3f4f6" strokeWidth="6" />
         <circle
           cx="40" cy="40" r={radius}
